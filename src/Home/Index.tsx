@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import { homeStyles as styles} from './styles/index';
+import { homeStyles as styles} from '../Styles/index';
 
 const HomeScreen = ({ navigation }: any) => {
 
     const onPress = () => {
-        console.log("navigate")
+        navigation.navigate("Book");
     };
 
     return (
